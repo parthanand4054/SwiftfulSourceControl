@@ -5,6 +5,10 @@
 //  Created by Parth Anand on 18/02/25.
 //
 
+/*
+ Write clear and descriptive commit messages
+ */
+
 import SwiftUI
 
 struct ContentView: View {
