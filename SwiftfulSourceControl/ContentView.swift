@@ -19,6 +19,10 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Swiftful!!")
             
+            Button("subscribe") {
+                
+            }
+            
             Button("click me") {
                 
             }
