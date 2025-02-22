@@ -9,6 +9,8 @@
  
  
  Write clear and descriptive commit messages
+ 
+ Added a line to documentation
  */
 
 import SwiftUI
