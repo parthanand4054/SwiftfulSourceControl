@@ -19,6 +19,9 @@ struct HomeView: View {
             
             Text("Screen 10!")
         }
+        .onAppear {
+            // send analytics
+        }
     }
 }
 
