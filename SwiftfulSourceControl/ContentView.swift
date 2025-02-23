@@ -18,16 +18,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "house.fill")
-                .font(.largeTitle)
-                .foregroundStyle(.tint)
-            Text("Swiftful thinking!")
-            
-            Button("Subscribe now") {
-                
+            ScrollView {
+                VStack {
+                    ForEach(0..<20) { _ in
+                        Text("YO!")
+                    }
+                }
             }
-            
-            Rectangle()
         }
         .padding()
     }
